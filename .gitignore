@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore compiled files and caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore logs
+*.log
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+
+# Ignore IDE/editor settings
+.vscode/
+*.swp
+*.swo
+
+# Ignore Jupyter/Notebook cache
+.ipynb_checkpoints/
