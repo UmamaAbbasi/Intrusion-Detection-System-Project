@@ -1,0 +1,15 @@
+rules:
+  - name: "Suspicious keyword: /etc/passwd"
+    pattern: "/etc/passwd"
+
+  - name: "Command injection: rm -rf"
+    pattern: "rm -rf"
+
+  - name: "Potential XSS"
+    pattern: "<script>"
+
+  - name: "SQL Injection"
+    pattern: "' OR 1=1 --"
+
+  - name: "Shellshock"
+    pattern: "() { :; };"
